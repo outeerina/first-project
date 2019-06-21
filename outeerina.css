@@ -1,0 +1,124 @@
+.background {
+    background: linear-gradient(to top left, powderblue, pink);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-box {
+    margin-left: 80px;
+}
+
+.title {
+    width: 100%;
+    font-size: 72px;
+    margin-left: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titile-instagram {
+    margin-top: 19px;
+
+}
+
+.titile-instagram img {
+    width: 57px;
+}
+
+.title-image {
+    margin-top: 80px;
+    margin-left: 40px;
+    border: 2px solid #ddd;
+    background: linear-gradient(to top left, pink, powderblue);
+    padding: 30px;
+    transform: rotateZ(-3deg);
+}
+
+.title-text li {
+    list-style-type: none;
+}
+
+.title-text {
+    padding: 0;
+    font-size: 45px;
+}
+
+.title-rus {
+    text-transform: uppercase;
+}
+
+.title-head {
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.title-sub {
+    color: #8a8a8a;
+    font-size: 25px;
+}
+
+.title-info {
+
+}
+
+
+
+.images-1 {
+    position: fixed;
+    right: 60px;
+    top: 30px;
+    transform: rotateZ(3deg);
+    z-index: 3;
+}
+
+.images-2 {
+    position: fixed;
+    right: 90px;
+    top: 280px;
+    transform: rotateZ(-3deg);
+    z-index: 2;
+}
+
+.images-3 {
+    position: fixed;
+    right: 60px;
+    top: 490px;
+    transform: rotateZ(3deg);
+    z-index: 1;
+}
+
+.polaroid {
+    width: 220px;
+}
+
+.polaroid img {
+    border: 10px solid #fff;
+    border-bottom: 45px solid #fff;
+    box-shadow: 3px 3px 3px #777;
+    width: 220px;
+}
+
+.polaroid p {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    color: #888;
+    text-transform: uppercase;
+}
